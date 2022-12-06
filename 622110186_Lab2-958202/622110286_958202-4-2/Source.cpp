@@ -22,22 +22,17 @@ void RenderScene(void) {
 	glBegin(GL_LINE_STRIP);
 	//
 	glVertex3f(50.0f, 0.0f, 0.0f);
-	glVertex3f(50.0f, 50.0f, 0.0f);
+    glVertex3f(100.0f, 50.0f, 0.0f);
 	glVertex3f(0.0f, 50.0f, 0.0f);
-	
-	glVertex3f(0.0f, 0.0f, 0.0f);
-	glVertex3f(-50.0f, 0.0f, 0.0f);
-	glVertex3f(-50.0f, -50.0f, 0.0f);
-	glVertex3f(0.0f, -50.0f, 0.0f);
-	//
-	glVertex3f(0.0f, -100.0f, 0.0f);
-	glVertex3f(50.0f, -100.0f, 0.0f);
-	glVertex3f(50.0f, -50.0f, 0.0f);
-	//
-	// 
-	glVertex3f(100.0f, -50.0f, 0.0f);
-	glVertex3f(100.0f, 0.0f, 0.0f);
+    glVertex3f(-50.0f, 0.0f, 0.0f);
 	glVertex3f(50.0f, 0.0f, 0.0f);
+	glVertex3f(50.0f, -100.0f, 0.0f);
+	glVertex3f(-50.0f, -100.0f, 0.0f);
+	glVertex3f(-50.0f, 0.0f, 0.0f);
+	glVertex3f(50.0f, 0.0f, 0.0f);
+	glVertex3f(100.0f, 50.0f, 0.0f);
+	glVertex3f(100.0f, -50.0f, 0.0f);
+	glVertex3f(50.0f, -100.0f, 0.0f);
 
 	glEnd();
 	glFlush();

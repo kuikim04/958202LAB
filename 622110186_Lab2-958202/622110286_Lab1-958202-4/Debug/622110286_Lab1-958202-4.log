@@ -1,0 +1,4 @@
+﻿Source1.obj : error LNK2005: "void __cdecl RenderScene(void)" (?RenderScene@@YAXXZ) already defined in Source.obj
+Source1.obj : error LNK2005: "void __cdecl SetupRC(void)" (?SetupRC@@YAXXZ) already defined in Source.obj
+Source1.obj : error LNK2005: _main already defined in Source.obj
+C:\Users\CAMT\source\repos\622110186_Lab2-958202\Debug\622110286_Lab1-958202-4.exe : fatal error LNK1169: one or more multiply defined symbols found
